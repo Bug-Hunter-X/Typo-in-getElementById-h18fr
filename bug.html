@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug</title>
+</head>
+<body>
+  <div id="myDiv">
+    This is some text.
+  </div>
+
+  <script>
+    //Incorrect way to select the div element
+    var element = document.getElementByld("myDiv");
+    element.innerHTML = "Text changed!";
+  </script>
+</body>
+</html>
